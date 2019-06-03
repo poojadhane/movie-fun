@@ -9,6 +9,8 @@ spring:
   mvc.view:
     prefix: /WEB-INF/
     suffix: .jsp
+  env:
+    JBP_CONFIG_TOMCAT: '{ tomcat: { version: 8.0.+ } }'
 
 logging.level:
   root: WARN
